@@ -113,7 +113,8 @@ def hangman():
    if tries == 0:
        print("Game over you died ):")
        print(lives_visual_dict[tries])
-   print("Congrats you guess the word"," ".join(word) )
+   else:      
+       print("Congrats you guess the word"," ".join(word) )
 if __name__ == "__main__"  :
     hangman()
     
