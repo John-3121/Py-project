@@ -1,6 +1,6 @@
 import random 
 import string
-words = ["dog","cabinet","python","sky","gold","racoon","headphone","shirt"#You can change this or add more
+words = ["dog","cabinet","python","sky","gold","racoon","headphone","shirt"]#You can change this or add more
 
 lives_visual_dict = {
         0: """
