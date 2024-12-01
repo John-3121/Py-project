@@ -77,7 +77,7 @@ def hangman():
    word_letters = set(word)
    alphabet = set(string.ascii_uppercase)
    used_letters = set()
-   tries = 5
+   tries = 7
    
    while len(word_letters) > 0 and tries> 0:
        
