@@ -81,14 +81,15 @@ def hangman():
    
    while len(word_letters) > 0 and tries> 0:
        
-       
+       #and read this last or not its up to you
     print("this are the letter u have alreday used "  + "-"
     .join(used_letters) )
     
     right_guess = [letter if letter in used_letters else "-" for letter in word]
     print(lives_visual_dict[tries])
     print("Current Word:", " ".join(right_guess))
-    
+
+           #Read here first my suggestion inside this while loop
     user_letter = input('Guess a letter: ').upper()
     if user_letter in alphabet - used_letters:
             used_letters.add(user_letter)
